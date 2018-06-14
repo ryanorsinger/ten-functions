@@ -68,7 +68,7 @@ describe('or', () => {
     expect(or(true, true)).toBe(true);
   })
   it('should return true when passed true and one false as inputs', () => {
-    expect(or(true, false)).toBe(false)
+    expect(or(true, false)).toBe(true)
   })
   it('should return false when passed two false values', () => {
     expect(or(false, false)).toBe(false)
@@ -83,7 +83,7 @@ describe('isEqual', () => {
     expect(typeof isEqual).toBe('function');
   })
   it('should return a boolean value', () => {
-    expect(typeof isEqual(randomNumber, randomNumber)).toBe(true)
+    expect(typeof isEqual(randomNumber, randomNumber)).toBe('boolean')
   })
   it('should return true when passed 2 and "2" as inputs since they are equal in value', () => {
     expect(isEqual(2, "2")).toBe(true)
@@ -172,9 +172,6 @@ describe('addOne', () => {
   it('should return 1 when passed "0"', () => {
     expect(addOne("0")).toBe(1)
   })
-  it('should return NaN when passed the input "banana"', () => {
-    expect(addOne("banana")).toBe(NaN)
-  })
 })
 
 describe('isFalse', () => {
@@ -246,7 +243,7 @@ describe('isTrue', () => {
     expect(typeof isTrue).toBe('function')
   })
   it('should return a boolean value', () => {
-    expect(isTrue(typeof isTrue(randomBoolean)).toBe('boolean'))
+    expect(typeof isTrue(randomBoolean)).toBe('boolean')
   })
   it('should return true when passed the boolean true', () => {
     expect(isTrue(true)).toBe(true)
