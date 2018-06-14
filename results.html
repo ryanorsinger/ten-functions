@@ -2,13 +2,21 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.1.0/jasmine.css">
+    <link rel="stylesheet" href="./style.css">
     
   </head>
   <body>
-    <h1>
+    <a href="./index.html" id="home">Back home</a>
+    <h2>
       Test results
-    </h1>
-    
+    </h2>
+    <ul>
+      <li>This shows results of automated accuracy tests called <a href="https://en.wikipedia.org/wiki/Unit_testing">unit tests</a> run from <pre>tests.js</pre></li>
+      <li>Test output below shows the results of calling functions defined in <pre>solutions.js</pre></li> with various inputs.
+      <li>Function definitions that pass test assertions turn red tests green, indicating their correctness</li>
+      <li>See "Spec List" for overview data and "Failures" for more detailed test output</li>  
+    </ul>
+      
     <!-- Jasmine (The test runner) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.1.0/jasmine.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.1.0/jasmine-html.js"></script>
@@ -21,5 +29,3 @@
     <script src="./solutions.js" type="text/javascript" ></script>
   </body>
 </html>
-
-

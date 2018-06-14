@@ -5,7 +5,7 @@ Click `Show` in the header to run the app live. Updates to your code will instan
   
 
 ## The "Ten Functions" Exercises 👟
-0. The comments to the right of the function call demonstrate the output value of the function's operation on the provided input. Add your function definitions to `solutions.js`.
+0. The comments to the right of the function call example demonstrate the output of the function's operation on the provided input(s). Add your function definitions to `solutions.js`. Refresh `index.html` to run automated tests for feedback on your approach.
 
 1. Define a function named `isTrue` that takes in any input and returns true if the input provided is exactly equal to `true` in value and `boolean` in data type.
         
@@ -91,7 +91,7 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         or(false, true)
         or(false, false)
         or(true, (false || false))
-        or(
+      
         
 
 9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
@@ -100,16 +100,15 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         and(true, false)
         and(false, true)
         and(false, false)
-        
 
 
 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
         
         concat("code", "up")                // "codeup"
         concat("connect", 4)                // "connect4"
+        concat("hello", "world")            // "helloworld"
         concat(4, 2)                        // "42"
-        concat(
-
+        concat(true, true)                  // "truetrue"
         
 ## Hints
 
@@ -117,9 +116,9 @@ Consider this example problem.
 
 > Write a function called `isBoolean` that takes in a value and returns a boolean if the argument provided is a boolean value or not.
 >
-> `isBoolean("Dog")` should return `false` because a string is not a boolean
->
-> `isBoolean(false)` should return `true` because only true and false are boolean values.
+
+- `isBoolean("Dog")` should return `false` because a string is not a boolean
+- `isBoolean(false)` should return `true` because only true and false are boolean values.
 
 - When a problem says `return`, it means `return`, not `console.log`.
 
@@ -152,9 +151,9 @@ function isBoolean(input) {
 
 
 ## About
-- Proudly hosted and edited on <a href="https://glitch.com">Glitch!</a>
+- Proudly hosted and edited on <a href="https://glitch.com">Glitch!</a> 🎏
 - Testing framework: <a href="https://github.com/jasmine/jasmine">Jasmine</a>
-- Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/)
+- Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/) 
 -------------------
 
 \ ゜o゜)ノ
