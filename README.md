@@ -1,11 +1,11 @@
-Ten Functions
+➢ Ten Functions 
 =================
 
 Click `Show` in the header to run the app live. Updates to your code will instantly deploy and update live.
   
 
-## The "Ten Functions" Exercises
-0. The comments to the right of the function call demonstrate the output value of the function's operation on the provided input.
+## The "Ten Functions" Exercises 👟
+0. The comments to the right of the function call demonstrate the output value of the function's operation on the provided input. Add your function definitions to `solutions.js`.
 
 1. Define a function named `isTrue` that takes in any input and returns true if the input provided is exactly equal to `true` in value and `boolean` in data type.
         
@@ -82,11 +82,26 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         isEqual(true, 1)                      // true
         isEqual(0, false)                     // true
         isEqual(4, -5)                        // false
-        isEqual("java", "javascript")        // false
+        isEqual("java", "javascript")         // false
 
-8. Define a function named `and`
+8. Define a function named `or` that takes in two input arguments. The output returned should be the result of an `or` operation on both inputs.
+        
+        or(true, true)
+        or(true, false)
+        or(false, true)
+        or(false, false)
+        or(true, (false || false))
+        or(
+        
 
-9. Define a function named `or`
+9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
+  
+        and(true, true)
+        and(true, false)
+        and(false, true)
+        and(false, false)
+        
+
 
 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
         
@@ -136,8 +151,10 @@ function isBoolean(input) {
 ```
 
 
-
-Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/)
+## About
+- Proudly hosted and edited on <a href="https://glitch.com">Glitch!</a>
+- Testing framework: <a href="https://github.com/jasmine/jasmine">Jasmine</a>
+- Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/)
 -------------------
 
 \ ゜o゜)ノ
