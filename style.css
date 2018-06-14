@@ -14,3 +14,15 @@ h1 {
 #exercises {
   margin-top: 2em;
 }
+
+pre {
+  display: inline;
+  font-size: 1.23em;
+}
+
+#home {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: .5em;
+}

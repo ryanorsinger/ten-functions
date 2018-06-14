@@ -1,5 +1,10 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+"use strict";
 
-// prints "hi" in the browser's dev tools console
-console.log('hi');
+/**
+ * Write your solutions here.
+ *
+ * **Note**: While normally it is good practice to wrap your javascript in an
+ * immediately invoked function expression (iife), you should _not_ do that
+ * here. If you do, the automated tests will not be able to see your functions.
+ * If you don't know what an iffe is, don't worry about it :)
+ */
