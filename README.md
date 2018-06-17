@@ -1,6 +1,9 @@
 ➢ Ten Functions 
 =================
 
+"Ten Functions" is a perepared environment for practicing introductory function writing with automated tests for feedback.
+
+
 ## Getting Started
 1. Remix this project on [Glitch](https://ten-functions.glitch.me)(https://github.com/ryanorsinger/ten-functions") so you have your own copy.
 2. Read the exercise prompts listed below
