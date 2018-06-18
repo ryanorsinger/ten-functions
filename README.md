@@ -1,11 +1,19 @@
 ➢ Ten Functions 
 =================
 
-Click `Show` in the header to run the app live. Updates to your code will instantly deploy and update live.
-  
+"Ten Functions" is a perepared environment for practicing introductory function writing with automated tests for feedback.
+
+
+## Getting Started
+1. Remix this project on [Glitch](https://ten-functions.glitch.me)(https://github.com/ryanorsinger/ten-functions") so you have your own copy.
+2. Read the exercise prompts listed below
+3. Define your functions that solve the prompts inside of `solutions.js`.
+4. Use feedback to improve responses
+5. Submit issues and patches to the <a href="https://github.com/ryanorsinger/ten-functions/issues">Ten Functions project</a>
+
 
 ## The "Ten Functions" Exercises 👟
-0. The comments to the right of the function call example demonstrate the output of the function's operation on the provided input(s). Add your function definitions to `solutions.js`. Refresh `index.html` to run automated tests for feedback on your approach.
+0. The comments to the right of the function call example demonstrate the output of the function's operation on the provided input(s). Add your function definitions to `solutions.js`. Refresh `results.html` to run automated tests for feedback on your solutions.
 
 1. Define a function named `isTrue` that takes in any input and returns true if the input provided is exactly equal to `true` in value and `boolean` in data type.
         
@@ -43,7 +51,7 @@ Click `Show` in the header to run the app live. Updates to your code will instan
 4. Define a function named `addOne` that takes in a single input. If the input is a number or a numeric string, return the value plus one.
 
         addOne(0)                    // 1
-        addOne(2)         `          // 2
+        addOne(2)         `          // 3
         addOne(-5)                   // -4 
         addOne(5.789)                // 6.789
         addOne(Infinity)             // Infinity
@@ -86,20 +94,21 @@ Click `Show` in the header to run the app live. Updates to your code will instan
 
 8. Define a function named `or` that takes in two input arguments. The output returned should be the result of an `or` operation on both inputs.
         
-        or(true, true)
-        or(true, false)
-        or(false, true)
-        or(false, false)
-        or(true, (false || false))
+        or(true, true)                    // true
+        or(true, false)                   // true
+        or(false, true)                   // true
+        or(false, false)                  // false
+        or("hello", "world")              // "hello" (this behavior is non-obvious, research more!)
       
         
 
 9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
   
-        and(true, true)
-        and(true, false)
-        and(false, true)
-        and(false, false)
+        and(true, true)                    // true
+        and(true, false)                   // false
+        and(false, true)                   // false
+        and(false, false)                  // false
+        and("hello", "world")              // "world" (this behavior is non-obvious, research more)
 
 
 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
@@ -110,6 +119,13 @@ Click `Show` in the header to run the app live. Updates to your code will instan
         concat(4, 2)                        // "42"
         concat(true, true)                  // "truetrue"
         
+## Files in this project
+- `index.html` is the welcome page
+- `results.html` shows the ouptut from automated test data
+- `solutions.js` is where you will write your function definitions that solve the exercises below
+- `tests.js` is the suite of automated tests that call your functions in `solutions.js` with different inputs.
+
+
 ## Hints
 
 Consider this example problem.
