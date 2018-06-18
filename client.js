@@ -8,8 +8,13 @@
 //   // ipAddress
 // });
 
+// projectName and projectEditLink
 let projectName = location.host.substring(0, location.host.indexOf("."));
-      
-let editSolutionsUrl = "https://glitch.com/edit/#!/"+ projectName + "?path=solutions.js"; 
-      
+let editSolutionsUrl = "https://glitch.com/edit/#!/"+ projectName + "?path=solutions.js";       
 document.getElementById("solutions-edit-link").href = editSolutionsUrl;
+
+// Add tracker to count number of remixes/forks of the project
+document.querySelector("#remix").addEventListener('click', function(event) {
+  console.log("remix button clicked");
+  // wire up to send a request to a firebase or local endpoint that tracks number of clicks and userAgents
+});
