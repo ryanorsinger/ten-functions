@@ -51,7 +51,7 @@
 4. Define a function named `addOne` that takes in a single input. If the input is a number or a numeric string, return the value plus one.
 
         addOne(0)                    // 1
-        addOne(2)         `          // 3
+        addOne(2)                    // 3
         addOne(-5)                   // -4 
         addOne(5.789)                // 6.789
         addOne(Infinity)             // Infinity
