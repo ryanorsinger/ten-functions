@@ -1,7 +1,7 @@
 ➢ Ten Functions 
 =================
 
-"Ten Functions" is a perepared environment for practicing introductory function writing with automated tests for feedback.
+"Ten Functions" is a prepared environment for practicing introductory function writing with automated tests for feedback.
 
 
 ## Getting Started
