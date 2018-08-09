@@ -1,7 +1,7 @@
 ➢ Ten Functions 
 =================
 
-"Ten Functions" is a perepared environment for practicing introductory function writing with automated tests for feedback.
+"Ten Functions" is a prepared environment for practicing introductory function writing with automated tests for feedback.
 
 
 ## Getting Started
@@ -15,7 +15,7 @@
 ## The "Ten Functions" Exercises 👟
 0. The comments to the right of the function call example demonstrate the output of the function's operation on the provided input(s). Add your function definitions to `solutions.js`. Refresh `results.html` to run automated tests for feedback on your solutions.
 
-1. Define a function named `isTrue` that takes in any input and returns true if the input provided is exactly equal to `true` in value and `boolean` in data type.
+1. Define a function named `isTrue` that takes in any input and returns true if the input provided is exactly equal to `true` in value and data type.
         
         isTrue(true)             // true
         isTrue(false)            // false
@@ -25,7 +25,7 @@
         isTrue("Banana")         // false
         isTrue([1, 2])           // false
 
-2. Define a function named `isFalse` that takes in a value and returns a boolean if the argument provided is a boolean value or not.
+2. Define a function named `isFalse` that takes in a value and returns a true if and only if the provided input is equal to false in both type and value.
         
         isFalse(false)             // true
         isFalse(true)              // false
