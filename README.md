@@ -5,7 +5,7 @@
 
 
 ## Getting Started
-1. Remix this project on [Glitch](https://ten-functions.glitch.me)(https://github.com/ryanorsinger/ten-functions") so you have your own copy.
+1. Clone, fork, or remix this project on [Glitch](https://ten-functions.glitch.me)(https://github.com/ryanorsinger/ten-functions") so you have your own copy. If you're using this for practice, then recommend cloning.
 2. Read the exercise prompts listed below
 3. Define your functions that solve the prompts inside of `solutions.js`.
 4. Use feedback to improve responses
