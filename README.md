@@ -5,7 +5,7 @@
 
 
 ## Setup Instructions
-- If you want more practice working with Git and Github, fork then clone this project from GitHub so you have your own copy in your own GitHub account.
+- If you want more practice working with Git and Github, fork this project on GitHub and then clone your fork to your development box, so you have both your own local copy and a remote in GitHub where you can push your solutions.
 - Go here https://glitch.com/edit/#!/remix/ten-functions if you only want to focus on the problems and side-step the git process.
 
 ## Getting Started
