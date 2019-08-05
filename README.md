@@ -4,8 +4,11 @@
 "Ten Functions" is a prepared environment for practicing introductory function writing with automated tests for feedback.
 
 
+## Setup Instructions
+- If you want more practice working with Git and Github, fork then clone this project from GitHub so you have your own copy in your own GitHub account.
+- Go here https://glitch.com/edit/#!/remix/ten-functions if you only want to focus on the problems and side-step the git process.
+
 ## Getting Started
-1. Clone, fork, or remix this project on [Glitch](https://ten-functions.glitch.me)(https://github.com/ryanorsinger/ten-functions") so you have your own copy. If you're using this for practice, then recommend cloning.
 2. Read the exercise prompts listed below
 3. Define your functions that solve the prompts inside of `solutions.js`.
 4. Use feedback to improve responses
